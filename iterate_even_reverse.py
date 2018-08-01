@@ -1,7 +1,5 @@
 """Reverse iterate"""
 print('Hello!')
-I = 10
-while I > 0:
+for I in range(10, 1, -2):
     print(I)
-    I = I-2
     
