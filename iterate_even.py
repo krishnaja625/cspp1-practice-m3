@@ -1,7 +1,5 @@
 """Even iterate"""
-I = 2
-while I <= 10:
+for I in range(2, 12, +2):
     print(I)
-    I = I+2
 print('Goodbye!')
     
